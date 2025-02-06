@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors*/
+  --bg-default: #F5F4F0;
+  --border-primary: #D9D9D9;
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #E1624F;
+  --blue: #0C51A7;
+  --orange: #E95E10;
+  --pink: #E5245E;
+  --purple: #591B98;
+
+  /*Fonts*/
+  --font-family: "Open Sans", serif;
+  --h1: bold 36px var(--font-family);
+  --h2: bold 32px var(--font-family);
+  --h3: bold 28px var(--font-family);
+  --headline: bold 16px var(--font-family);
+  --pg: 16px var(--font-family);
+  --sub: italic 16px var(--font-family);
+}
