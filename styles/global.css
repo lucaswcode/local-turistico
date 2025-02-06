@@ -26,3 +26,34 @@
   --pg: 16px var(--font-family);
   --sub: italic 16px var(--font-family);
 }
+
+body {
+  background-color: var(--bg-default);
+  padding: 88px 80px 48px 80px;
+}
+main {
+  width: 1120px;
+  margin: auto;
+}
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-primary);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.purple {
+  color: var(--purple);
+}
