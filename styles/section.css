@@ -41,9 +41,14 @@ section {
     font-weight: 700;
     color: var(--text-secondary);
   }
-  & span {
+  ol {
+    font: var(--h3);
+    margin-left: 45px;
+  }
+  & ul li {
     font: var(--pg);
     font-weight: 700;
+    margin-left: 22px;
   }
 }
 
