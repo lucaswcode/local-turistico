@@ -1,0 +1,57 @@
+.destination {
+  & p:nth-child(1) {
+    padding-top: 64px;
+    font: var(--headline);
+    color: var(--orange);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  & h2 {
+    font: var(--h2);
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  & p:nth-child(3) {
+    font: var(--pg);
+    color: var(--text-secondary);
+    padding-bottom: 64px;
+  }
+}
+
+section {
+  img {
+    width: 100%;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+    margin-top: 48px;
+    margin-bottom: 20px;
+  }
+  & h3 {
+    font: var(--h3);
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+  & p {
+    font: var(--pg);
+    color: var(--text-secondary);
+  }
+  & .good-for {
+    font: var(--pg);
+    font-weight: 700;
+    color: var(--text-secondary);
+  }
+  & span {
+    font: var(--pg);
+    font-weight: 700;
+  }
+}
+
+section + .divisor {
+  margin-top: 40px;
+}
+
+.description {
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
